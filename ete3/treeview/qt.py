@@ -21,7 +21,7 @@ try:
                              QTextEdit, QToolBar, QTransform, QVBoxLayout,
                              QWidget)
     from PyQt4.QtSvg import QGraphicsSvgItem, QSvgGenerator
-    from PyQt4.QtOpenGL import QGLFormat, QGLWidget
+#    from PyQt4.QtOpenGL import QGLFormat, QGLWidget
 
 except ImportError:
     from PyQt5 import QtGui, QtCore
@@ -29,7 +29,7 @@ except ImportError:
                               QThread, QIODevice, QMetaObject, QModelIndex, QObject, QRegExp, QSize,
                               QSizeF,  QVariant) #QString
     from PyQt5.QtSvg import QGraphicsSvgItem, QSvgGenerator
-    from PyQt5.QtOpenGL import QGLFormat, QGLWidget
+#    from PyQt5.QtOpenGL import QGLFormat, QGLWidget
     from PyQt5.QtPrintSupport import QPrinter
     from PyQt5.QtWidgets import (QAction, QApplication, QCheckBox, QWidget,
                                  QColorDialog, QComboBox, QDialog, QDialogButtonBox, QFileDialog,
